@@ -4,7 +4,7 @@ const connectDB = require("./database/index");
 const port = process.env.PORT || 3001;
 const hostname = process.env.HOSTNAME || "localhost";
 
-// Y -----{ Connect to MongoDB & start the server }----- Y //
+// W ---------{ Connect to MongoDB & start the server }--------------
 connectDB()
   .then(() => {
     app
